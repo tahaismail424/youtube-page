@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/Roboto-Regular.ttf);
+}
+
+body {
+    background-color: #201c1c;
+
+}
+
+.navbar {
+    background-color: #282424;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 83px;
+
+}
+
+
+
+.youtube-logo-pic {
+    display: inline-block;
+    
+    width: 110px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+.search {
+    width: 25px;
+    height: 25px;
+    display: block;
+    filter: invert(100%);
+    background-color: #C7CBCB;
+    margin: auto;
+}
+
+.search-bar {
+    padding-left: 10px;
+    margin-left: 150px;
+    margin-right: 0;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.search-box {
+    background-color: #383434;
+    width: 65px;
+    height: 36px;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+
+input {
+    background-color: black;
+    border: solid;
+    border-color: #383434;
+    color: white;
+    width: 40%;
+    height: 36px;
+    font-family: Roboto;
+    font-size: 15px;
+
+}
+
+iframe {
+
+    width: 70vw;
+    height: 60vh;
+    margin-top: 110px;
+    margin-left: 20px;
+}
+
+
+p {
+    color: white;
+    font-family: Roboto;
+}
+
+.views {
+    display: inline;
+    margin-right: 32%;
+}
+
+.video-tasks {
+    display: inline;
+}
+
+.video-tasks p {
+    display: inline;
+    margin-right: 22px;
+
+    
+}
+
+.video-options {
+    margin-left: 20px;
+}
+
+.video-desc {
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    padding-top: 20px;
+    border-color: #303030;
+}
+
+.channel {
+    display: flex;
+}
+.channel-logo {
+    width: 55px;
+    height: 55px;
+}
+
+.channel-info {
+    margin: 10px 0 0 18px;
+}
+
+.channel-info p {
+    margin: 0;
+}
+
+.channel-subs {
+    color: #aaaaaa;
+    font-size: 13px;
+}
+
+
+
+a {
+    color: #3ba2f9;
+    text-decoration: none;
+}
+
+.video-layout {
+    display: grid;
+    grid-template-columns: 74vw 1fr;
+}
+
+.video-display {
+    grid-column-start: 1;
+}
+
+.video-suggestion {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.suggestions {
+    grid-column-start: 2;
+    margin-top: 110px;
+
+}
+
+.thumbnail {
+    width: 170px;
+    height: 96px;
+}
+
+.sug-video-title {
+    margin: 2px 0 7px 7px;
+}
+
+.sug-video-info {
+    color: #aaaaaa;
+    font-size: 10px;
+    margin: 2px 0 0 7px;
+}
+
+.desc {
+    margin-left: 73px;
+}
+
+.views {
+    color: #aaaaaa;
+}
+
+
+
+
+
+
+
